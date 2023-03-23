@@ -1,6 +1,6 @@
 import GameSavingLoader from '../GameSavingLoader';
 
-test('Метод создает объект', async () => {
+test('test async/await', async () => {
   const received = await GameSavingLoader.load();
 
   const expected = {
